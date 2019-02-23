@@ -8,6 +8,7 @@ pip install -r requirements.txt
 mkdir data notebooks src .utils
 
 # Git init and setup
+rm -rf .git
 git init
 echo "*.ipynb    filter=dropoutput_ipynb" >> .gitattributes
 mv ./ipynb_drop_output.py .utils/ipynb_drop_output.py
