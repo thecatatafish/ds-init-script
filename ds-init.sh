@@ -16,5 +16,5 @@ chmod +x .utils/ipynb_drop_output.py
 
 # Make git clean notebook output before commiting
 git config core.attributesfile ~/.gitattributes
-git config filter.dropoutput_ipynb.clean ipynb_drop_output.py
+git config filter.dropoutput_ipynb.clean ./.utils/ipynb_drop_output.py
 git config filter.dropoutput_ipynb.smudge cat
