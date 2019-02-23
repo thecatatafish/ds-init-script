@@ -1,7 +1,9 @@
-set -e
+#!/bin/bash
 
-virtualenv venv
-source venv/bin/activate
+set -e
+ENV_NAME=venv
+virtualenv $ENV_NAME
+source ./$ENV_NAME/bin/activate
 pip install -r requirements.txt
 mkdir data notebooks src .utils
 
