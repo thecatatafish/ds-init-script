@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# Script taken from https://github.com/toobaz/ipynb_output_filter/blob/master/ipynb_output_filter.py
 
 import sys
 
